@@ -9,6 +9,6 @@ function countDigits(n) {
     return count
 };
 
-countDigits(12345);
+// countDigits(12345);
 
 console.log("Number of digits " + countDigits(12345));
