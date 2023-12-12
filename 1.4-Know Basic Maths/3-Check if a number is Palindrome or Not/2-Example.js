@@ -1,21 +1,21 @@
+// Example 2:
+// Input: N =  121 
+// Output: Palindrome Number
+// Explanation: 121 read backwards as 121.Since these are two same numbers 121 is a palindrome.
+
 function reverse(X) {
     let Y = 0;
     let dummy = X;
 
     while (X > 0) {
-        // Extract the last digit
         let digit = X % 10;
-        // Appending the last digit
         Y = Y * 10 + digit;
-        // Shrinking X by discarding the last digit
         X = Math.floor(X / 10);
     };
-
-    return { Y, dummy };
+    return { Y, dummy }
 };
 
-// Example usage
-let X = 123;
+let X = 121;
 let { Y, dummy } = reverse(X);
 
 if (dummy === Y) {

@@ -1,6 +1,6 @@
 function value(num) {
     for (let i = 1; i <= num; i++) {
-        let row = " ";
+        let row = "";
 
         for (let j = 1; j <= i; j++) {
             row += j
@@ -9,7 +9,7 @@ function value(num) {
     };
 };
 
-value(5);
+value(10);
 
 // 1
 // 12

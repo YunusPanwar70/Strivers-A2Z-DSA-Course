@@ -11,4 +11,4 @@ function countDigits(n) {
 
 // countDigits(12345);
 
-console.log("Number of digits " + countDigits(12345));
+console.log(`Number of digits ${countDigits(12345)}`);
