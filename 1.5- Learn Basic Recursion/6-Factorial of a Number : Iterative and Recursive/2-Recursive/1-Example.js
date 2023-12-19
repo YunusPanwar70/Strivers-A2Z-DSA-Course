@@ -5,8 +5,4 @@ function factorial(n) {
     return n * factorial(n - 1);
 };
 
-function main() {
-    console.log(factorial(3));
-};
-
-main();
+console.log(factorial(3));

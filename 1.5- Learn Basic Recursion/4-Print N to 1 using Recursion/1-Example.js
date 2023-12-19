@@ -6,10 +6,4 @@ function func(i, n) {
     func(i - 1, n);
 };
 
-function main() {
-    let n = 4;
-    func(n, n);
-    return 0;
-};
-
-main();
+func(4, 4);

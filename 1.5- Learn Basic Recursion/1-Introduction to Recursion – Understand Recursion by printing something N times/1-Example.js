@@ -6,10 +6,6 @@ function func() {
     console.log(count);
     count++;
     func();
-};
+}
 
-function main() {
-    func();
-};
-
-main();
+func();

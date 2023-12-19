@@ -5,9 +5,4 @@ function func(n) {
     return n + func(n - 1);
 };
 
-function main() {
-    let result = func(3);
-    console.log(`Result: ${result}`);
-    return 0;
-};
-main();
+console.log(`Result: ${func(3)}`);

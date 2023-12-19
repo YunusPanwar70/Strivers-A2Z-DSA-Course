@@ -6,8 +6,4 @@ function solve(n) {
     console.log(`The sum of the first ${n} number is: ${sum}`);
 };
 
-function main() {
-    solve(6);
-};
-
-main();
+solve(6);

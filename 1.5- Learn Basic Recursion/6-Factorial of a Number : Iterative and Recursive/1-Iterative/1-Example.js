@@ -6,9 +6,4 @@ function factorial(x) {
     return ans;
 };
 
-function main() {
-    let result = factorial(5);
-    console.log(`The factorial of 5 is ${result}`);
-};
-
-main();
+console.log(`The factorial of 5 is ${factorial(5)}`);

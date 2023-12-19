@@ -14,10 +14,4 @@ function reverseArray(arr) {
     printArray(ans);
 }
 
-function main() {
-    let n = 5;
-    let arr = [10, 20, 30, 40];
-    reverseArray(arr);
-}
-
-main();
+reverseArray([10, 20, 30, 40]);

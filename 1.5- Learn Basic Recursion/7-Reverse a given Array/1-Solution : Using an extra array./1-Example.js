@@ -14,10 +14,4 @@ function reverseArray(arr) {
     printArray(arr);
 };
 
-function main() {
-    // let n = 5;
-    let arr = [5, 4, 3, 2, 1];
-    reverseArray(arr);
-};
-
-main();
+reverseArray([5, 4, 3, 2, 1]);

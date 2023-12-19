@@ -1,8 +1,3 @@
-// Example 2:
-// Input: num1 = 3, num2 = 6
-// Output: 3
-// Explanation: Since 3 is the greatest number which divides both num1 and num2.
-
 let num1 = 3,
     num2 = 6;
 let ans;
