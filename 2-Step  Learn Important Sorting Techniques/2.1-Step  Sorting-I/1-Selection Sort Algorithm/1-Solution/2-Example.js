@@ -10,11 +10,9 @@ function selectionSort(arr) {
         arr[mini] = arr[i];
         arr[i] = temp;
     }
-    console.log("After selection sort: ");
-    console.log(arr.join(" "));
+    console.log(`After Using insertion Sort : ${arr.join(" ")}`);
 }
 
 let arr = [5, 4, 3, 2, 1];
-console.log("Before selection sort: ");
-console.log(arr.join(" "));
+console.log(`Before Using insertion Sort : ${arr.join(" ")}`);
 selectionSort(arr);
