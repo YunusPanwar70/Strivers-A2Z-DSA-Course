@@ -5,7 +5,7 @@ function solve(arr, n) {
     }
     temp[n - 1] = arr[0];
     for (let i = 0; i < n; i++) {
-        console.log(temp[i] + " ");
+        console.log(temp[i]);
     }
     console.log();
 }
@@ -13,3 +13,5 @@ function solve(arr, n) {
 let n = 5;
 let arr = [1, 2, 3, 4, 5];
 solve(arr, n);
+
+// 2 3 4 5 1
